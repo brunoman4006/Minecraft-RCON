@@ -1,12 +1,7 @@
-# Minecraft-RCON
-Simple Minecraft RCON Web Console (using PHP, Bootstrap and Javascript) 
+# Minecraft RCON
+A fork of a simple Minecraft RCON Web Console using PHP, Bootstrap and JavaScript. Currently in active development.
 
 Inspired by [Minecraft-RCON-Console](https://github.com/ekaomk/Minecraft-RCON-Console) and using [PHP-Minecraft-Rcon](https://github.com/thedudeguy/PHP-Minecraft-Rcon).
-
-![Sample](samples/sample.png)
-
-![Sample Mobile](samples/sample-mobile.png)
-
 ## Configuration
 
 1. Edit your Minecraft server `server.properties` configuration file in order to enable RCON:
@@ -30,5 +25,3 @@ $rconPassword = "xtMJsVtmx0XypuId7jIb";
  * [For NGinx users](https://nginx.org/en/docs/http/ngx_http_auth_basic_module.html)
 * Use a strong custom random RCON password (change the default one provided here) for more security.
 * Set up your firewall in order to allow only the web server to communicate with the Minecraft server through the RCON port set, for more security.
-
-
